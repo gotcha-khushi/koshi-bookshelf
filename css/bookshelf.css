@@ -1,0 +1,71 @@
+#bookshelf{
+    display:flex;
+    gap:20px;
+    margin:0px;
+    width:610px;
+    overflow:hidden;
+
+
+}
+.book{
+    width:43px;
+    height:194px;
+    background:#8b4a3a;
+    flex-shrink:0;  /* prevents books from shrinking */
+    display:flex;
+    align-items:flex-start;
+    justify-content: center;
+    
+    overflow:hidden;
+    filter:brightness(0.8) contrast(2.3);
+}
+
+
+.book::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    z-index: 2;
+    inset:none;
+    opacity:0.4;
+    filter:url(#paper);
+
+   
+   
+}
+
+.book span{
+    writing-mode:vertical-rl;
+    transform:rotate(360deg);
+    white-space:nowrap;
+    background:none;
+    position:relative;
+    color: #ded7c6;
+    top:15px;
+    font-size:18px;
+    font-family: 'Georgia',serif;
+}
+
+
+#bookshelf-container{
+    display:flex;
+    align-items:center;
+    gap:20px;
+   
+}
+
+.scroll-left,.scroll-right{
+    margin:0px;
+    padding: 88px 12px;
+    background:none;
+    border:1px solid #829c82;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+
+

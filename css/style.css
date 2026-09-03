@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -5,10 +7,17 @@
 }
 
 body{
-    font-family:Arial,Helvetica,sans-serif;
-    background-color:#311b14;
+    font-family:"Cormorant Garamond", serif;
+    font-weight:400;
+    background:linear-gradient(to right,#385244 0%,#385244 23%,#ede8dd 23%,#ede8dd 100%);
     min-height:100vh;
 }
+
+
+/* dark mode 
+background: #2c365e;
+font: #4b8f8c;*/
+
 
 header{
     display:flex;
@@ -19,6 +28,7 @@ header{
 
 header h1{
     font-size:2rem;
+    color:#ede8dd;
 }
 
 #theme-toggle{
@@ -35,6 +45,116 @@ main{
     padding:40px; 
 } 
 
-#review{
-    grid-column:2;
+
+aside{
+    color:#ede6d8;
+    font-size:1.2rem;
+    grid-column:1;
+    grid-row:1/3;
+    position:absolute;
+    left:50px;
+    right:400px;
+    top:120px;
+    font-family: 'Georgia',serif;
 }
+
+aside h2{
+    font-weight:400;
+}
+
+aside h2.find{
+    position:relative;
+    
+
+}
+
+.social-links h4{
+    text-align:left;
+    font-size:1.3rem;
+    position:relative;
+    top:-10px;
+    margin-bottom:5px;
+    font-weight:100;
+   
+}
+
+.nav{
+    gap:15px;
+    display:flex;
+    flex-direction:column;
+    margin-top:30px;
+}
+
+#review{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    padding:20px;
+    position:absolute;
+    left:425px;
+    top:280px;
+}
+
+#review h2{
+    margin:0;
+    font-size:2.6rem;
+    margin-bottom:-8px;
+}
+ 
+#review .author {
+    font-size: 1.6rem;
+    font-family: 'Georgia',serif;
+    position: relative;
+    left: 6px;
+    color: #525a52;
+}
+
+.review-meta{
+    display:flex;
+    font-family: 'Georgia',serif;
+    gap:30px;
+    margin:5px 0 15px 0;
+}
+
+.review-meta p{
+    margin:0;
+    font-size:1.6rem;
+    color:#525a52;      
+}
+
+#review p.actual_review{
+    font-size:1.5rem;
+    font-family: 'Georgia',serif;
+    position:relative;
+    left:5px; 
+    max-width: 600px;
+    word-wrap: break-word;   
+}
+
+
+#bookshelf-container{
+    display:flex;
+    align-items:center;
+    color:#311b14;
+    grid-column:2;
+    grid-row:1;
+    position:absolute;
+    left:390px;
+    top:80px;
+}
+
+.divider{
+    border:none;
+    height:1px;
+    background: #829c82;
+    margin: 0p 0 14px 0;
+    position:relative;
+    left:-11px;
+
+}
+
+
+
+/* dark mode 
+background: #1c1e4d;
+color: #adbae3;*/

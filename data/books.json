@@ -1,0 +1,153 @@
+[
+    {
+        "id":"1",
+        "title":"White Nights",
+        "author":"Fyodor Dostoevsky",
+        "color": "black",
+        "rating":"4.5",
+        "readtime": "December 2025",
+        "review": "A beautiful, melancholic story about a lonely dreamer who falls in love with a woman he meets over four nights in St. Petersburg. Dostoevsky captures the pain of unrequited love and the comfort of fantasy with heartbreaking tenderness. The final scene, where the dreamer returns to his solitude, is devastating yet oddly peaceful.",
+        "coverimage" : "assets/books/white-nights.jpg"
+
+    },
+    {
+        "id":"2",
+        "title":"The old man and The Sea",
+        "author":"Ernest Hemingway",
+        "color": "blue",
+        "rating":"4.7",
+        "readtime": "January 2026",
+        "review": "later",
+        "coverimage" : "assets/books/the-old-man-and-the-sea.jpg"
+    },
+    {
+        "id":"3",
+        "title":"Thus Spoke Zarathustra",
+        "author":"Friedrich Nietzsche",
+        "color": "dark-blue",
+        "rating":"4.8",
+        "readtime": "February 2026",
+        "review": "later",
+        "coverimage" : "assets/books/thus-spoke-zarathustra.jpg"
+    },
+    {
+        "id":"4",
+        "title":"The Alchemist",
+        "author":"Paulo Coelho",
+        "color": "green",
+        "rating":"4.6",
+        "readtime": "March 2026",
+        "review": "later",
+        "coverimage" : "assets/books/the-alchemist.jpg"
+    },
+    {
+        "id":"5",
+        "title":"The Metamorphosis",
+        "author":"Franz Kafka",
+        "color": "yellow",
+        "rating":"4.4",
+        "readtime": "April 2026",
+        "review": "later",
+        "coverimage" : "assets/books/the-metamorphosis.jpg"
+    },
+    {
+        "id":"6",
+        "title":"1984",
+        "author":"George Orwell",
+        "color": "red",
+        "rating":"4.9",
+        "readtime": "May 2026",
+        "review": "later",
+        "coverimage" : "assets/books/1984.jpg"
+    },
+    {
+        "id":"7",
+        "title":"I Have No Mouth But I Must Scream",
+        "author":"Harlan Ellison",
+        "color": "purple",
+        "rating":"4.3",
+        "readtime": "June 2026",
+        "review": "later",
+        "coverimage" : "assets/books/i-have-no-mouth-but-i-must-scream.jpg"
+    },
+    {
+        "id":"8",
+        "title":"No Longer Human",
+        "author":"Osamu Dazai",
+        "color": "orange",
+        "rating":"4.2",
+        "readtime": "July 2026",
+        "review": "later",
+        "coverimage" : "assets/books/no-longer-human.jpg"
+    },
+    {
+        "id":"9",
+        "title":"The Fifth Mountain",
+        "author":"Paulo Coelho",
+        "color": "grey",
+        "rating":"4.1",
+        "readtime": "August 2026",
+        "review": "later",
+        "coverimage" : "assets/books/the-fifth-mountain.jpg"
+    },
+    {
+        "id":"10",
+        "title":"The Trial",
+        "author":"Franz Kafka",
+        "color": "brown",
+        "rating":"4.0",
+        "readtime": "September 2026",
+        "review": "later",
+        "coverimage" : "assets/books/the-trial.jpg"
+    },
+    {
+        "id":"11",
+        "title":"The Grand Design",
+        "author":"Stephen Hawking",
+        "color": "light-blue",
+        "rating":"4.5",
+        "readtime": "October 2026",
+        "review": "later",
+        "coverimage" : "assets/books/the-grand-design.jpg"
+    },
+    {
+        "id":"12",
+        "title":"The Brothers Karamazov",
+        "author":"Fyodor Dostoevsky",
+        "color": "dark-green",
+        "rating":"4.8",
+        "readtime": "November 2026",
+        "review": "later",
+        "coverimage" : "assets/books/the-brothers-karamazov.jpg"
+    },
+    {
+        "id":"13",
+        "title":"Ikigai: The Japanese Secret to a Long and Happy Life",
+        "author":"Héctor García and Francesc Miralles",
+        "color": "light-grey",
+        "rating":"4.6",
+        "readtime": "December 2026",
+        "review": "later",
+        "coverimage" : "assets/books/ikigai.jpg"
+    },
+    {
+        "id":"14",
+        "title":"I had That Same Dream Again",
+        "author":"Yoru Sumino",
+        "color": "dark-blue",
+        "rating":"4.7",
+        "readtime": "January 2027",
+        "review": "later",
+        "coverimage" : "assets/books/i-had-that-same-dream-again.jpg"
+    },
+    {
+        "id":"15",
+        "title":"The Book Thief",
+        "author":"Markus Zusak",
+        "color": "light-green",
+        "rating":"4.9",
+        "readtime": "February 2027",
+        "review": "later",
+        "coverimage" : "assets/books/the-book-thief.jpg"
+    }
+]
