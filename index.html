@@ -62,12 +62,14 @@
 
             <section id="review">
                 <hr class="divider">
-                <h2>White Nights</h2>
+                <h2 id="book-title">White Nights</h2>
                 <div class="review-meta">
-                    <p class="author">Author: Fyodor Dostoevsky</p>
-                    <p class="read-time">Read:time</p> <p class="rating">Rating: 4.5/5</p>
+                    <p class="author" id="book-author">Author: Fyodor Dostoevsky</p>
+                    <p class="read-time" id="book-readtime">Read:time</p> 
+                    <p class="rating" id="book-rating">Rating: 4.5/5</p>
                 </div>
-                <p class="actual_review">A beautiful, melancholic story about a lonely dreamer who falls in love with
+                <p class="actual_review" id="book-review">
+                    A beautiful, melancholic story about a lonely dreamer who falls in love with
                     a woman he meets over four nights in St. Petersburg. Dostoevsky captures the pain of unrequited love
                     and the comfort of fantasy with heartbreaking tenderness. The final scene, where the dreamer returns to 
                     his solitude, is devastating yet oddly peaceful.</p>
@@ -76,7 +78,7 @@
 
 
         </main>
-        <script src="js/books.js"></script>
+       
         <script src="js/bookshelf.js"></script>
         <script src="js/theme.js"></script>
         <script src="js/app.js"></script>
@@ -87,7 +89,7 @@
                     <feTurbulence
                     type="fractalNoise"
                     baseFrequency="1"
-                    numOcatves="8"
+                    numOctaves="9"
                     result="noise"/>
                     <feDiffuseLighting
                     in="noise"
@@ -102,7 +104,11 @@
             </defs>
         </svg>
 
-        <div id="bookshelf class=bookshelf"> </div>
+       
+
+       
+        </section>
+        
 
     </body>
 </html>

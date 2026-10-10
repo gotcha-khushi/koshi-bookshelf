@@ -3,59 +3,125 @@
     gap:20px;
     margin:0px;
     width:610px;
-    overflow:hidden;
-
-
+    overflow-x:auto;
+    overflow-y:hidden;
+    padding:10px 0;
 }
+
+.book-item{
+    position:relative;
+    flex:0 0 43px;
+    height:194px;
+    perspective:800px;
+    perspective-origin:43px 50%;
+    transition:flex-basis 0.45s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.book-item.active{
+    flex-basis:173px;
+    z-index:1;
+}
+
+.book-scene{
+    position:relative;
+    width:43px;
+    height:194px;
+    transform:rotateY(0deg);
+    transform-origin:left center;
+    transform-style:preserve-3d;
+    transition:transform 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.book-item.active .book-scene{
+    transform:rotateY(-40deg) translateZ(3px);
+}
+
 .book{
     width:43px;
     height:194px;
-    background:#8b4a3a;
+    background-color: transparent;
     flex-shrink:0;  /* prevents books from shrinking */
-    display:flex;
-    align-items:flex-start;
-    justify-content: center;
-    
     overflow:hidden;
     filter:brightness(0.8) contrast(2.3);
+    cursor: pointer;
 }
 
+.book-cover{
+    position:absolute;
+    top:0;
+    left:43px;
+    width:130px;
+    height:194px;
+    overflow:hidden;
+    background-color:var(--cover-color);
+    filter:brightness(0.8) contrast(2.3);
+    box-shadow:inset 4px 0 8px rgba(0,0,0,0.18);
+    transform:scaleX(0) rotateY(80deg);
+    transform-origin:left center;
+    transform-style:preserve-3d;
+    transition:transform 0.45s cubic-bezier(0.25, 1, 0.5, 1);
+    pointer-events:none;
+}
+
+.book-item.active .book-cover{
+    transform:scaleX(1) rotateY(71deg);
+}
+
+.book-cover img{
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.book-cover::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    z-index:2;
+    pointer-events:none;
+    opacity:0.4;
+    filter:url(#paper);
+}
 
 .book::after{
     content:"";
     position:absolute;
     top:0;
     left:0;
-    width:100%;
-    height:100%;
+    width:43px;
+    height:194px;
     pointer-events:none;
     z-index: 2;
     inset:none;
     opacity:0.4;
     filter:url(#paper);
-
-   
-   
 }
 
 .book span{
     writing-mode:vertical-rl;
     transform:rotate(360deg);
+    max-height:160px;
+    width:30px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    display:inline-block;
     white-space:nowrap;
     background:none;
     position:relative;
+    z-index:1;
     color: #ded7c6;
     top:15px;
-    font-size:18px;
+    font-size:16px;
     font-family: 'Georgia',serif;
-}
 
+}
 
 #bookshelf-container{
     display:flex;
     align-items:center;
     gap:20px;
-   
 }
 
 .scroll-left,.scroll-right{
@@ -66,6 +132,3 @@
     border-radius:4px;
     cursor:pointer;
 }
-
-
-

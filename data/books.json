@@ -3,10 +3,11 @@
         "id":"1",
         "title":"White Nights",
         "author":"Fyodor Dostoevsky",
-        "color": "black",
+        "color": "#2b2b2b",
         "rating":"4.5",
         "readtime": "December 2025",
         "review": "A beautiful, melancholic story about a lonely dreamer who falls in love with a woman he meets over four nights in St. Petersburg. Dostoevsky captures the pain of unrequited love and the comfort of fantasy with heartbreaking tenderness. The final scene, where the dreamer returns to his solitude, is devastating yet oddly peaceful.",
+        "cover": "covers/white-nights.jpg",
         "coverimage" : "assets/books/white-nights.jpg"
 
     },
@@ -14,30 +15,33 @@
         "id":"2",
         "title":"The old man and The Sea",
         "author":"Ernest Hemingway",
-        "color": "blue",
+        "color": "#1b3b6f",
         "rating":"4.7",
         "readtime": "January 2026",
         "review": "later",
+        "cover": "covers/the-old-man-and-the-sea.jpg",
         "coverimage" : "assets/books/the-old-man-and-the-sea.jpg"
     },
     {
         "id":"3",
         "title":"Thus Spoke Zarathustra",
         "author":"Friedrich Nietzsche",
-        "color": "dark-blue",
+        "color": "#1b3b6f",
         "rating":"4.8",
         "readtime": "February 2026",
         "review": "later",
+        "cover": "covers/thus-spoke-zarathustra.jpg",
         "coverimage" : "assets/books/thus-spoke-zarathustra.jpg"
     },
     {
         "id":"4",
         "title":"The Alchemist",
         "author":"Paulo Coelho",
-        "color": "green",
+        "color": "#d49b27",
         "rating":"4.6",
         "readtime": "March 2026",
         "review": "later",
+        "cover": "covers/the-alchemist.jpg",
         "coverimage" : "assets/books/the-alchemist.jpg"
     },
     {
@@ -48,6 +52,7 @@
         "rating":"4.4",
         "readtime": "April 2026",
         "review": "later",
+        "cover": "covers/the-metamorphosis.jpg",
         "coverimage" : "assets/books/the-metamorphosis.jpg"
     },
     {
@@ -58,6 +63,7 @@
         "rating":"4.9",
         "readtime": "May 2026",
         "review": "later",
+        "cover": "covers/1984.jpg",
         "coverimage" : "assets/books/1984.jpg"
     },
     {
@@ -68,6 +74,7 @@
         "rating":"4.3",
         "readtime": "June 2026",
         "review": "later",
+        "cover": "covers/i-have-no-mouth-but-i-must-scream.jpg",
         "coverimage" : "assets/books/i-have-no-mouth-but-i-must-scream.jpg"
     },
     {
@@ -78,6 +85,7 @@
         "rating":"4.2",
         "readtime": "July 2026",
         "review": "later",
+        "cover": "covers/no-longer-human.jpg",
         "coverimage" : "assets/books/no-longer-human.jpg"
     },
     {
@@ -88,6 +96,7 @@
         "rating":"4.1",
         "readtime": "August 2026",
         "review": "later",
+        "cover": "covers/the-fifth-mountain.jpg",
         "coverimage" : "assets/books/the-fifth-mountain.jpg"
     },
     {
@@ -98,6 +107,7 @@
         "rating":"4.0",
         "readtime": "September 2026",
         "review": "later",
+        "cover": "covers/the-trial.jpg",
         "coverimage" : "assets/books/the-trial.jpg"
     },
     {
@@ -108,6 +118,7 @@
         "rating":"4.5",
         "readtime": "October 2026",
         "review": "later",
+        "cover": "covers/the-grand-design.jpg",
         "coverimage" : "assets/books/the-grand-design.jpg"
     },
     {
@@ -118,6 +129,7 @@
         "rating":"4.8",
         "readtime": "November 2026",
         "review": "later",
+        "cover": "covers/the-brothers-karamazov.jpg",
         "coverimage" : "assets/books/the-brothers-karamazov.jpg"
     },
     {
@@ -128,6 +140,7 @@
         "rating":"4.6",
         "readtime": "December 2026",
         "review": "later",
+        "cover": "covers/ikigai.jpg",
         "coverimage" : "assets/books/ikigai.jpg"
     },
     {
@@ -138,6 +151,7 @@
         "rating":"4.7",
         "readtime": "January 2027",
         "review": "later",
+        "cover": "covers/i-had-that-same-dream-again.jpg",
         "coverimage" : "assets/books/i-had-that-same-dream-again.jpg"
     },
     {
@@ -148,6 +162,7 @@
         "rating":"4.9",
         "readtime": "February 2027",
         "review": "later",
+        "cover": "covers/the-book-thief.jpg",
         "coverimage" : "assets/books/the-book-thief.jpg"
     }
 ]

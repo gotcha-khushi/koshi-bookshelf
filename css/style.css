@@ -16,7 +16,7 @@ body{
 
 /* dark mode 
 background: #2c365e;
-font: #4b8f8c;*/
+font    : #4b8f8c;*/
 
 
 header{
@@ -88,6 +88,8 @@ aside h2.find{
 #review{
     display:flex;
     flex-direction:column;
+    width:100%;
+    max-width:800px;
     gap:5px;
     padding:20px;
     position:absolute;
@@ -145,9 +147,10 @@ aside h2.find{
 
 .divider{
     border:none;
+    max-width:635px;
     height:1px;
     background: #829c82;
-    margin: 0p 0 14px 0;
+    margin: 0px 0 17px 0;
     position:relative;
     left:-11px;
 
