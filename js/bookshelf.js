@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     loadBooks();
+    setupScrollArrows();
 });
 
 async function loadBooks(){
@@ -85,4 +86,40 @@ function displayBookDetails(book) {
     if (ratingEl) ratingEl.textContent = `Rating: ${book.rating}`;
     if (reviewEl) reviewEl.textContent = book.review;
 
+}
+
+
+//function for arrow scroll
+
+let scrollTimer;
+
+function setupScrollArrows(){
+    const shelf = document.getElementById("bookshelf");
+    const leftArrow=document.querySelector(".scroll-left");
+    const rightArrow=document.querySelector(".scroll-right");
+
+    if (!shelf || !leftArrow || !rightArrow) return;
+
+    function startScrolling(direction){
+        clearInterval(scrollTimer);
+
+        scrollTimer= setInterval(() => {
+            if (direction === "left") {
+                shelf.scrollLeft -= 1.5;
+            } else if (direction === "right"){
+                shelf.scrollLeft += 1.5;
+            }
+        }, 16);       
+    }
+
+    function stopScrolling() {
+        clearInterval(scrollTimer);
+    }
+
+    leftArrow.addEventListener("mouseenter",() => startScrolling("left"));
+    leftArrow.addEventListener("mouseleave", stopScrolling);
+
+
+    rightArrow.addEventListener("mouseenter",() => startScrolling("right"));
+    rightArrow.addEventListener("mouseleave", stopScrolling);
 }
