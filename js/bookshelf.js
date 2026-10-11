@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
 async function loadBooks(){
     try{
         const response = await fetch("data/books.json");
+        if (!response.ok) {
+            throw new Error(`Book data request failed: ${response.status}`);
+        }
         const books = await response.json();
         renderBookshelf(books);
 
@@ -22,52 +25,27 @@ function renderBookshelf(books){
         if (!shelf) return;
         shelf.innerHTML= "";
         books.forEach((book) => {
-            const bookItem=document.createElement("div");
-            bookItem.classList.add("book-item");
+            const bookItem = createBookComponent(book);
 
-            const bookScene=document.createElement("div");
-            bookScene.classList.add("book-scene");
-
-            const bookEl=document.createElement("div");
-            bookEl.classList.add("book");
-            bookEl.style.backgroundColor = book.color;
-
-            const titleSpan = document.createElement("span");
-            titleSpan.textContent=book.title;
-            bookEl.appendChild(titleSpan);
-
-            const coverEl=document.createElement("div");
-            coverEl.classList.add("book-cover");
-            coverEl.style.setProperty("--cover-color", book.color);
-
-            if (book.cover) {
-                const coverImage=document.createElement("img");
-                coverImage.src=book.cover;
-                coverImage.alt=`${book.title} cover`;
-                coverImage.addEventListener("error", () => coverImage.remove(), { once:true });
-                coverEl.appendChild(coverImage);
-            }
-
-            bookScene.append(bookEl, coverEl);
-            bookItem.appendChild(bookScene);
             bookItem.addEventListener("click", () => {
                 const wasActive = bookItem.classList.contains("active");
                 shelf.querySelectorAll(".book-item.active").forEach((activeBook) => {
                     activeBook.classList.remove("active");
                 });
-                if (!wasActive) {
+                if (!wasActive){
                     bookItem.classList.add("active");
                     requestAnimationFrame(() => {
-                        const itemLeft = bookItem.getBoundingClientRect().left
+                        const itemLeft =bookItem.getBoundingClientRect().left
                             - shelf.getBoundingClientRect().left + shelf.scrollLeft;
-                        shelf.scrollTo({
-                            left: Math.max(0, itemLeft + 173 - shelf.clientWidth),
-                            behavior: "smooth"
-                        });
+                            shelf.scrollTo({
+                                left: Math.max(0, itemLeft + 173 - shelf.clientWidth),
+                                behavior: "smooth"
+                            });
                     });
                 }
                 displayBookDetails(book);
             });
+
             shelf.appendChild(bookItem);
         });
 }

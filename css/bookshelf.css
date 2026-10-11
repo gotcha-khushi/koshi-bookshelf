@@ -44,7 +44,10 @@
     overflow:hidden;
     filter:brightness(0.8) contrast(2.3);
     cursor: pointer;
+    
 }
+
+
 
 .book-cover{
     position:absolute;
@@ -54,7 +57,7 @@
     height:194px;
     overflow:hidden;
     background-color:var(--cover-color);
-    filter:brightness(0.8) contrast(2.3);
+    filter:brightness(0.85) contrast(2);
     box-shadow:inset 4px 0 8px rgba(0,0,0,0.18);
     transform:scaleX(0) rotateY(80deg);
     transform-origin:left center;
@@ -64,14 +67,14 @@
 }
 
 .book-item.active .book-cover{
-    transform:scaleX(1) rotateY(71deg);
+    transform:scaleX(1) rotateY(63deg);
 }
 
 .book-cover img{
     display:block;
     width:100%;
     height:100%;
-    object-fit:cover;
+    object-fit:fill;
 }
 
 .book-cover::after{
@@ -82,6 +85,7 @@
     pointer-events:none;
     opacity:0.4;
     filter:url(#paper);
+    mix-blend-mode:multiply;
 }
 
 .book::after{
