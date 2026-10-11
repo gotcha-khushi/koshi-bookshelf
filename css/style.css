@@ -116,6 +116,7 @@ aside h2.find{
     font-family: 'Georgia',serif;
     gap:30px;
     margin:5px 0 15px 0;
+    white-space: nowrap;
 }
 
 .review-meta p{
