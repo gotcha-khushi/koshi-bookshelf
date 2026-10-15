@@ -12,6 +12,20 @@ function createBookComponent(book){
 
     const titleSpan = document.createElement("span");
     titleSpan.textContent = book.title;
+
+    const hex = book.color.replace('#','');
+    const r = parseInt(hex.substring(0,2),16);
+    const g = parseInt(hex.substring(2,4),16);
+    const b = parseInt(hex.substring(4,6),16);
+    const brightness = (r* 0.299) + (g*0.587) + (b*0.114);
+
+    // 3. Apply the style based on the math
+    if (brightness > 128) {
+        titleSpan.style.color = "#111111";
+    } else {
+        titleSpan.style.color = "#f4f4f4";
+    }
+
     bookEl.appendChild(titleSpan);
 
     const coverEl = document.createElement("div");
@@ -31,4 +45,6 @@ function createBookComponent(book){
     return bookItem;
 
 }
+
+
 

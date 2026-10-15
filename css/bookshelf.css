@@ -57,7 +57,7 @@
     height:194px;
     overflow:hidden;
     background-color:var(--cover-color);
-    filter:brightness(0.85) contrast(2);
+    filter:brightness(0.99) contrast(1.1);
     box-shadow:inset 4px 0 8px rgba(0,0,0,0.18);
     transform:scaleX(0) rotateY(80deg);
     transform-origin:left center;
