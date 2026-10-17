@@ -1,14 +1,14 @@
 [
     {
         "id":"1",
-        "title":"White Nights",
-        "author":"Fyodor Dostoevsky",
-        "color": "#ba9975",
-        "rating":"4.5",
-        "readtime": "December 2025",
-        "review": "A beautiful, melancholic story about a lonely dreamer who falls in love with a woman he meets over four nights in St. Petersburg. Dostoevsky captures the pain of unrequited love and the comfort of fantasy with heartbreaking tenderness. The final scene, where the dreamer returns to his solitude, is devastating yet oddly peaceful.",
-        "cover": "covers/white-nights.jpg",
-        "coverimage" : "assets/books/white-nights.jpg"
+        "title":"Thus Spoke Zarathustra",
+        "author":"Friedrich Nietzsche",
+        "color": "#2f333c",
+        "rating":"4.8",
+        "readtime": "February 2026",
+        "review": "later",
+        "cover": "covers/thus-spoke-zarathustra.jpg",
+        "coverimage" : "assets/books/thus-spoke-zarathustra.jpg"
 
     },
     {
@@ -24,14 +24,15 @@
     },
     {
         "id":"3",
-        "title":"Thus Spoke Zarathustra",
-        "author":"Friedrich Nietzsche",
-        "color": "#2f333c",
-        "rating":"4.8",
-        "readtime": "February 2026",
-        "review": "later",
-        "cover": "covers/thus-spoke-zarathustra.jpg",
-        "coverimage" : "assets/books/thus-spoke-zarathustra.jpg"
+        "title":"White Nights",
+        "author":"Fyodor Dostoevsky",
+        "color": "#ba9975",
+        "rating":"4.5",
+        "readtime": "December 2025",
+        "review": "A beautiful, melancholic story about a lonely dreamer who falls in love with a woman he meets over four nights in St. Petersburg. Dostoevsky captures the pain of unrequited love and the comfort of fantasy with heartbreaking tenderness. The final scene, where the dreamer returns to his solitude, is devastating yet oddly peaceful.",
+        "cover": "covers/white-nights.jpg",
+        "coverimage" : "assets/books/white-nights.jpg"
+        
     },
     {
         "id":"4",
