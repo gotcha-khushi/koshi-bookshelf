@@ -10,33 +10,34 @@
         <link rel="stylesheet" href="css/animation.css">
         <link rel="stylesheet" href="css/bookshelf.css">
         <link rel="stylesheet" href="css/responsive.css">
-    
+             
     </head>
     <body>
         <div id="theme-layer" aria-hidden="true"></div>
         <header>
             <h1>Koshi's Bookshelf</h1>
             <button id="theme-toggle">
-                mode
+                <img src="assets/icons/sun.png" alt="Light Mode" class="theme-icon icon-light">
+                <img src="assets/icons/moon.png" alt="Dark Mode" class="theme-icon icon-dark">
             </button>
         </header>
         <main>
             <aside>
                 <div class="nav">
-                
-                <h2>About Me</h2>
+                <h2 id="nav-bookshelf" style="cursor: pointer">Bookshelf</h2>
+                <h2 id="nav-about" style="cursor:pointer">About Me</h2>
                 <h2>Admin Page</h2>
                 <h2 class="find">Find Me On</h2>
                 <div class="social-links">
-                    <h4><a href="https://github.com/gotcha-khushi"></a>GitHub</h4>
-                    <h4><a href="https://www.linkedin.com/in/khushi-sahu-26310b398/"></a>LinkedIn</h4>
+                    <h4><a href="https://github.com/gotcha-khushi" target="_blank" rel="noopener noreferrer">GitHub</a></h4>
+                    
                 </div>    
                
                 </div>
    
             </aside>
 
-
+        <div id = "bookshelf-view">
             <section id="bookshelf-container">
                  <button class="scroll-left">  <  </button>
                  
@@ -76,6 +77,12 @@
                     his solitude, is devastating yet oddly peaceful.</p>
 
             </section>
+        </div>
+
+        <section id="about-view" class="hidden">
+            <h2 id="about-heading"></h2>
+            <p id="about-text"></p>
+        </section>
 
 
         </main>
@@ -84,6 +91,7 @@
         <script src="js/bookshelf.js"></script>
         <script src="js/theme.js" defer></script>
         <script src="js/app.js"></script>
+        <script src="js/sidebar.js"></script>
 
         <svg style="position: absolute; inset:0 ;  ">
             <defs>

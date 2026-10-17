@@ -60,10 +60,36 @@ header h1{
 
 #theme-toggle{
     padding:10px 20px;
+    background:transparent;
     border:none;
     border-radius:8px;
+    right:2px;
     cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
+
+.theme-icon{
+    width:50px;
+    height:50px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+   
+}
+
+#theme-toggle:hover .theme-icon {
+    transform: scale(1.15);
+}
+
+body:not(.dark-mode) .icon-dark {
+    display:none;
+}
+
+body.dark-mode .icon-light{
+    display:none;
+}
+
 
 main{
     display:grid;
@@ -223,4 +249,61 @@ body.dark-mode #review p.actual_review {
 
 body.dark-mode .divider {
     background: #adbae3;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+#about-view {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    gap: 0px;
+    padding: 20px;
+    position: absolute;
+    left: 400px;
+    top: 80px;
+}
+
+#about-view h2 {
+    margin: 0;
+    font-size: 3.6rem;
+    line-height:1;
+    margin-bottom: 2px;
+    transition: color 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+#about-view p {
+    font-size: 2.3rem;
+    font-family: "Cormorant Garamond", serif;
+    position: relative;
+    left: 5px;
+    line-height:1.1;
+    margin-top:0px;
+    max-width: 600px;
+    word-wrap: break-word;
+    transition: color 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+body.dark-mode #about-view h2,
+body.dark-mode #about-view p {
+    color: #adbae3;
+}
+
+.social-links {
+    color:inherit;
+    transition: color 700ms cubic-bezier(0.22,1,0.36,1);
+}
+
+.social-links a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 700ms cubic-bezier(0.22,1,0.36,1);
+}
+
+.social-links a:hover {
+    text-decoration:underline;
 }

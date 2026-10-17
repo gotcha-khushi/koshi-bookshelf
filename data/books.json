@@ -123,14 +123,14 @@
     },
     {
         "id":"12",
-        "title":"The Brothers Karamazov",
-        "author":"Fyodor Dostoevsky",
-        "color": "#000000",
-        "rating":"4.8",
-        "readtime": "November 2026",
+        "title":"Case Study",
+        "author":"Graeme Macrae Burnet",
+        "color": "#28a7a4",
+        "rating":"4.9",
+        "readtime": "February 2027",
         "review": "later",
-        "cover": "covers/the-brothers-karamazov.jpg",
-        "coverimage" : "assets/books/the-brothers-karamazov.jpg"
+        "cover": "covers/case-study.jpg",
+        "coverimage" : "assets/books/case-study.jpg"
     },
     {
         "id":"13",
@@ -156,13 +156,13 @@
     },
     {
         "id":"15",
-        "title":"Case Study",
-        "author":"Graeme Macrae Burnet",
-        "color": "#28a7a4",
-        "rating":"4.9",
-        "readtime": "February 2027",
+        "title":"The Brothers Karamazov",
+        "author":"Fyodor Dostoevsky",
+        "color": "#000000",
+        "rating":"4.8",
+        "readtime": "November 2026",
         "review": "later",
-        "cover": "covers/case-study.jpg",
-        "coverimage" : "assets/books/case-study.jpg"
+        "cover": "covers/the-brothers-karamazov.jpg",
+        "coverimage" : "assets/books/the-brothers-karamazov.jpg"
     }
 ]
