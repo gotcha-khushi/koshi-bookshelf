@@ -18,7 +18,7 @@ The website has a warm, vintage-inspired design, with book spines arranged on a 
 - ⭐ **Reading details** — View book titles, authors, reading dates, and ratings.
 - 🌷 **About Me** — A little introduction to the person behind the bookshelf.
 - 🌙 **Light and dark themes** — Switch between themes to suit your reading mood.
-- 💻 **Responsive layout** — Designed to be usable across different screen sizes.
+
 
 ## 🛠️ Built With
 
@@ -27,41 +27,6 @@ The website has a warm, vintage-inspired design, with book spines arranged on a 
 - ⚡ JavaScript
 - 🗂️ JSON for storing book and about-page content
 
-## 📁 Project Structure
-
-```text
-koshi-bookshelf/
-├── assets/
-│   ├── books/
-│   └── icons/
-├── css/
-│   ├── bookshelf.css
-│   └── style.css
-├── data/
-│   ├── about.json
-│   └── books.json
-├── js/
-│   ├── app.js
-│   ├── book.js
-│   ├── bookshelf.js
-│   ├── sidebar.js
-│   └── theme.js
-└── index.html
-```
-
-## 🚀 Running Locally
-
-1. 📥 Clone this repository:
-
-   ```bash
-   git clone https://github.com/gotcha-khushi/koshi-bookshelf.git
-   ```
-
-2. 📂 Open the project folder.
-
-3. 🖥️ Run the website using a local development server, such as the **Live Server** extension in VS Code.
-
-   A local server is recommended because the website loads its book data from JSON files.
 
 ## 💭 Why I Made It
 
