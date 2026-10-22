@@ -1,35 +1,36 @@
 [
     {
         "id":"1",
-        "title":"Thus Spoke Zarathustra",
-        "author":"Friedrich Nietzsche",
-        "color": "#2f333c",
-        "rating":"4.8",
-        "readtime": "February 2026",
-        "review": "later",
-        "cover": "covers/thus-spoke-zarathustra.jpg",
-        "coverimage" : "assets/books/thus-spoke-zarathustra.jpg"
+        "title":"The old man and The Sea",
+        "author":"Ernest Hemingway",
+        "color": "#7f9d9b    ",
+        "rating":"4.1",
+        "readtime": "January 2026",
+        "review": "It was a strange but memorable read for me. I liked Santiago's determination to keep going despite of his failures and the way he refused to let his age and his bad luck define what he was capable of. I think he wanted to prove to himself that he could still do what he loved, and catching the marlin gave him that satistfaction, even though he could'nt bring it back to the shore to prove his achievement to amyone else. What I found bittersweet was despite eventhing he endured he still returned hungry and exhausted. He achieved something meaningful to himself but it stil didn't chage his circumstances. I'm not entirely sure what the moral of the story is and I don't think its simply about never giving up. To me it's more about complicated relationship between personal victory and external success, and how sometimes satisfaction of knowing what you're capable of is all you get.",
+        "cover": "covers/the-old-man-and-the-sea.jpg",
+        "coverimage" : "assets/books/the-old-man-and-the-sea.jpg"
 
     },
     {
         "id":"2",
-        "title":"The old man and The Sea",
-        "author":"Ernest Hemingway",
-        "color": "#7f9d9b    ",
-        "rating":"4.7",
-        "readtime": "January 2026",
-        "review": "later",
-        "cover": "covers/the-old-man-and-the-sea.jpg",
-        "coverimage" : "assets/books/the-old-man-and-the-sea.jpg"
+        "title":"Thus Spoke Zarathustra",
+        "author":"Friedrich Nietzsche",
+        "color": "#2f333c",
+        "rating":"4",
+        "readtime": "October 2025",
+        "review": "I've been an atheist since I was very young and I never understood why people need religious sriptures to tell them how to live when they're capable of thinking, questioning and creating their own values, why God is the ultimate foundation of truth, morality and meaning. So reading this book felt less like discovering a new philosophy and more like finding words for ideas I've held for years. Nitzsche talked about becoming Übermensch which translates to 'Overman' which represents the posssiblity of humanity overcoming this dependence on inherited values be it religion or societal standards or any other ideology and creating their own meaning and morals. This book was a difficult but fun read ",
+        "cover": "covers/thus-spoke-zarathustra.jpg",
+        "coverimage" : "assets/books/thus-spoke-zarathustra.jpg"
+
     },
     {
         "id":"3",
         "title":"White Nights",
         "author":"Fyodor Dostoevsky",
         "color": "#ba9975",
-        "rating":"4.5",
+        "rating":"5",
         "readtime": "December 2025",
-        "review": "A beautiful, melancholic story about a lonely dreamer who falls in love with a woman he meets over four nights in St. Petersburg. Dostoevsky captures the pain of unrequited love and the comfort of fantasy with heartbreaking tenderness. The final scene, where the dreamer returns to his solitude, is devastating yet oddly peaceful.",
+        "review": " At first I thought White Nights was going to be a classic romance novel which was unexpected from Dostoevosky but its actually about escapism,expectations and love. The narrator calls himself a dreamer, daydreaming becomes an addiction to him because in his imagination he can experience anything he struggles to find in reality. The book also explores how the narrator expects life to treat him like a main character, he expects to get the perfect story book ending but when things dont't go his way and disappointment hits him, he finds it really hard to accept, his whole world comes spiraling down. Instead of moving forward and making and new life experiences, he falls into a state of resignation as though he no longer wants to do anything with his life. I think White Nights is about how we become so consumed by what we want life to be, we forget to live the life we actually have. This book was really fun and interesting to read. ",
         "cover": "covers/white-nights.jpg",
         "coverimage" : "assets/books/white-nights.jpg"
         

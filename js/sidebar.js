@@ -12,7 +12,12 @@ async function fetchAboutData() {
         const response = await fetch('data/about.json');
         const data = await response.json();
         aboutHeading.textContent = data.heading;
-        aboutText.textContent = data.content;
+        aboutText.replaceChildren();
+        data.content.forEach((paragraph) => {
+            const element = document.createElement('p');
+            element.textContent = paragraph;
+            aboutText.appendChild(element);
+        });
     } catch (error) {
         aboutHeading.textContent = "Hi I'm Koshi!";
         aboutText.textContent = "about koshi";
