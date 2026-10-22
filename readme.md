@@ -30,12 +30,6 @@ The website has a warm, vintage-inspired design, with book spines arranged on a 
 
 ## 💭 Why I Made It
 
-I like reading books that make me think, question things, and look at the world a little differently. I wanted a place to keep those thoughts instead of letting them disappear after I finished a book.
-
 This project is also a way for me to practise web development by building something that feels personal to me. 🌱
 
 ---
-
-*Made with curiosity, code, and a growing pile of books.* ☕📚
-
-**Created by [Khushi](https://github.com/gotcha-khushi)** 🪴
