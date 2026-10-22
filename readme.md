@@ -32,4 +32,3 @@ The website has a warm, vintage-inspired design, with book spines arranged on a 
 
 This project is also a way for me to practise web development by building something that feels personal to me. 🌱
 
----
