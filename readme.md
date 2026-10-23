@@ -12,7 +12,7 @@ I like reading books that make me think, and I wanted somewhere to keep my revie
 - Has a light and dark theme.
 - Clicking on a book shows its details and review.
 - Includes an About Me page.
-- it also has an admin which I'm planning to use to add more books and reviews and edit reviews I'm still working on it
+- it also has an Admin section which I'm planning to use to add more books and reviews and edit reviews I'm still working on it
 
 ## Built with
 
