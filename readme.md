@@ -11,7 +11,7 @@ I like reading books that make me think, and I wanted somewhere to keep my revie
 - Lets me keep my own reviews, ratings, authors, and reading dates together.
 - Has a light and dark theme.
 - Clicking on a book shows its details and review.
-- Includes an About Me page.
+- Includes an About Me page where there's a small introduction to myself.
 - it also has an Admin section which I'm planning to use to add more books and reviews and edit reviews I'm still working on it
 
 ## Built with
