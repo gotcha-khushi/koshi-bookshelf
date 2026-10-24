@@ -31,6 +31,7 @@ I like reading books that make me think, and I wanted somewhere to keep my revie
 - Add a color wheel to choose color of spine according to the book cover
 
 
-Check it out:- https://gotcha-khushi.github.io/koshi-bookshelf/
+Live link:- https://gotcha-khushi.github.io/koshi-bookshelf/
+
 This project is also a way for me to practise web development by building something that feels personal to me.
 
