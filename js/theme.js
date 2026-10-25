@@ -1,7 +1,7 @@
 const themeToggleBtn = document.getElementById('theme-toggle');
 const themeLayer = document.getElementById('theme-layer');
 const transitionDuration = 700;
-const lightBackground = 'linear-gradient(to right, #385244 0%, #385244 23%, #ede8dd 23%, #ede8dd 100%)';
+const lightBackground = 'linear-gradient(to right, #2d5645 0%, #2d5645 23%, #ede8dd 23%, #ede8dd 100%)';
 const darkBackground = 'linear-gradient(to right, #adbae3 0%, #adbae3 23%, #1c1e4d 23%, #1c1e4d 100%)';
 let isTransitioning = false;
 
