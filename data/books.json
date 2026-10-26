@@ -52,8 +52,8 @@
         "author":"Franz Kafka",
         "color": "#c9c19a",
         "rating":"4.4",
-        "readtime": "April 2026",
-        "review": "later",
+        "readtime": "may 2024",
+        "review": "It's an unsettling story about aliennation. Gregor one day wokes up transformed into Beetle which feels like a physical menifestation of what can haappen to anyone, losing the identity they've built their entire life around. We attach so much of ourselves to our work, our talents, our appearance and qualities that make others value us that losing them can leave us feeling like we dont't know who we are anymore, losing your identity can feel devastation. People around us can quikly change their perception of us when we no longer fit in the role they expect us to play. Gregor also slowly lost the person he once recognised as himself.  ",
         "cover": "covers/the-metamorphosis.jpg",
         "coverimage" : "assets/books/the-metamorphosis.jpg"
     },
@@ -63,8 +63,8 @@
         "author":"George Orwell",
         "color": "#aa0401",
         "rating":"4.9",
-        "readtime": "May 2026",
-        "review": "later",
+        "readtime": " ",
+        "review": "I'm still reading this book.",
         "cover": "covers/1984.jpg",
         "coverimage" : "assets/books/1984.jpg"
     },
@@ -74,7 +74,7 @@
         "author":"Harlan Ellison",
         "color": "#0b0812",
         "rating":"4.3",
-        "readtime": "June 2026",
+        "readtime": "july 2025",
         "review": "later",
         "cover": "covers/i-have-no-mouth-but-i-must-scream.jpg",
         "coverimage" : "assets/books/i-have-no-mouth-but-i-must-scream.jpg"
@@ -85,7 +85,7 @@
         "author":"Osamu Dazai",
         "color": "#c13164",
         "rating":"4.2",
-        "readtime": "July 2026",
+        "readtime": "August 2025",
         "review": "later",
         "cover": "covers/no-longer-human.jpg",
         "coverimage" : "assets/books/no-longer-human.jpg"
@@ -96,7 +96,7 @@
         "author":"Paulo Coelho",
         "color": "#7687bd",
         "rating":"4.1",
-        "readtime": "August 2026",
+        "readtime": "January 2025",
         "review": "later",
         "cover": "covers/the-fifth-mountain.jpg",
         "coverimage" : "assets/books/the-fifth-mountain.jpg"
@@ -107,7 +107,7 @@
         "author":"Paulo Coelho",
         "color": "#8e376d",
         "rating":"4.0",
-        "readtime": "September 2026",
+        "readtime": "September 2023",
         "review": "later",
         "cover": "covers/veronica-decides-to-die.jpg",
         "coverimage" : "assets/books/veronica-decides-to-die.jpg"
@@ -118,7 +118,7 @@
         "author":"Stephen Hawking",
         "color": "#000000",
         "rating":"4.5",
-        "readtime": "October 2026",
+        "readtime": "October 2023",
         "review": "later",
         "cover": "covers/the-grand-design.jpg",
         "coverimage" : "assets/books/the-grand-design.jpg"
@@ -129,7 +129,7 @@
         "author":"Graeme Macrae Burnet",
         "color": "#28a7a4",
         "rating":"4.9",
-        "readtime": "February 2027",
+        "readtime": "Febsruary 2025",
         "review": "later",
         "cover": "covers/case-study.jpg",
         "coverimage" : "assets/books/case-study.jpg"
@@ -140,7 +140,7 @@
         "author":"Héctor García and Francesc Miralles",
         "color": "#b8d7e4",
         "rating":"4.6",
-        "readtime": "December 2026",
+        "readtime": "march 2023",
         "review": "later",
         "cover": "covers/ikigai.jpg",
         "coverimage" : "assets/books/ikigai.jpg"
@@ -151,7 +151,7 @@
         "author":"Yoru Sumino",
         "color": "#211a3e",
         "rating":"4.7",
-        "readtime": "January 2027",
+        "readtime": "February 2024",
         "review": "later",
         "cover": "covers/i-had-that-same-dream-again.jpg",
         "coverimage" : "assets/books/i-had-that-same-dream-again.jpg"
@@ -163,7 +163,7 @@
         "color": "#000000",
         "rating":"4.8",
         "readtime": "November 2026",
-        "review": "later",
+        "review": "I'm still reading this book.",
         "cover": "covers/the-brothers-karamazov.jpg",
         "coverimage" : "assets/books/the-brothers-karamazov.jpg"
     }
